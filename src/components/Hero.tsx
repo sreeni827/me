@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-600 shadow-xl animate-fadeIn">
                 <img 
-                  src="/my-image.jpg"  
+                  src="https://sreenu827.github.io/Sreenivasulu_Ramanaboina_portfolio2/my-image.jpg"  
                   alt="Sreenivasulu Ramanaboina" 
                   className="w-full h-full object-cover"
                 />
