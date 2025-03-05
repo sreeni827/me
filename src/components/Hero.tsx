@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
             
             <div className="flex space-x-4 animate-slideUp delay-300">
               <a 
-                href="https://github.com" 
+                href="https://github.com/sreeni827" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 text-gray-600 hover:text-blue-600 transition-colors duration-300"
@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
                 <GitHub size={24} />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/sreenivasulu-ramanaboina/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 text-gray-600 hover:text-blue-600 transition-colors duration-300"
@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-600 shadow-xl animate-fadeIn">
                 <img 
-                  src="https://sreenu827.github.io/Sreenivasulu_Ramanaboina_portfolio2/my-image.jpg"  
+                  src="https://sreeni827.github.io/me/my-image.jpg"  
                   alt="Sreenivasulu Ramanaboina" 
                   className="w-full h-full object-cover"
                 />
