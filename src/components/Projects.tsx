@@ -17,28 +17,29 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'Cloud Infrastructure Automation with AWS & Terraform',
-      description: 'Automated cloud infrastructure provisioning using AWS services (EC2, S3, RDS) and Terraform, reducing setup time by 50%. Implemented Infrastructure as Code (IaC) with Terraform for scalable, repeatable cloud infrastructure, ensuring consistency across multiple environments.',
+      title: 'Configuration and Deployment on AWS EKS',
+      description: 'Automated cloud infrastructure provisioning using AWS services (EC2, S3, RDS, EKS) and Terraform, reducing setup time by 50%. Implemented Infrastructure as Code (IaC) with Terraform for scalable, repeatable cloud infrastructure, ensuring consistency across multiple environments.',
       image: 'https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      technologies: ['AWS', 'Terraform', 'EC2', 'S3', 'RDS', 'CloudFormation'],
+      technologies: ['AWS', 'Terraform', 'EC2', 'S3', 'EKS', 'CloudFormation'],
       githubUrl: 'https://github.com',
       liveUrl: 'https://example.com'
     },
     {
       id: 2,
-      title: 'Three Tier CI/CD Pipeline Project',
-      description: 'Designed and deployed a three-tier multi-service CI/CD pipeline using Jenkins, GitHub Actions, and Docker, ensuring streamlined integration and delivery across multiple microservices. Automated the testing and deployment of microservices to Kubernetes (EKS) using Terraform and Helm, reducing deployment errors by 30% and improving release frequency.',
+      title: 'MERN Stack Application with Docker Compose',
+      description: 'Built a 3-tier MERN stack application using Docker Compose for seamless orchestration of services. The project consists of a React frontend, a Node.js backend with Express, and a MongoDB database, all containerized for easy deployment. Docker networking ensures communication between services, while persistent MongoDB data storage is handled via local volumes. The application is fully scalable and deployable using Docker commands or Docker Compose. This solution showcases expertise in containerization and full-stack application development.',
       image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      technologies: ['Jenkins', 'GitHub Actions', 'Docker', 'Kubernetes', 'Terraform', 'Helm'],
-      githubUrl: 'https://github.com'
+      technologies: ['Jenkins', 'GitHub Actions', 'Docker', 'Kubernetes', 'Terraform', 'MERN Stack'],
+      githubUrl: 'https://github.com/Sreenu827/MERN-Application-using-docker-compose.git'
     },
     {
       id: 3,
-      title: 'Azure Cloud Monitoring & Observability Platform',
-      description: 'Developed a comprehensive monitoring and observability platform using Azure Monitor, Application Insights, and Grafana. Implemented custom dashboards and alerting mechanisms to provide real-time insights into application performance and infrastructure health.',
+      title: 'upload_jenkins_build_logs',
+      description: 'his is a simple Bash script that automates the process of backing up Jenkins build logs to an AWS S3 bucket. The script iterates through Jenkins job directories, checks if the build log was created today, and if so, uploads the log file to a specified S3 bucket with the job name and build number as the filename',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      technologies: ['Azure', 'Grafana', 'Prometheus', 'Azure Monitor', 'Application Insights'],
-      githubUrl: 'https://github.com',
+      technologies: ['Shell', 'Scripting', 'AWS', 'Amazon S3', 'Automation'],
+       
+      githubUrl: 'https://github.com/Sreenu827/upload_jenkins_build_logs.git',
       liveUrl: 'https://example.com'
     },
     {
@@ -47,7 +48,7 @@ const Projects: React.FC = () => {
       description: 'Designed and implemented a containerized microservices architecture using Docker and Kubernetes. Created a scalable and resilient system with automated deployment, scaling, and management of containerized applications.',
       image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
       technologies: ['Docker', 'Kubernetes', 'Microservices', 'API Gateway', 'Service Mesh'],
-      githubUrl: 'https://github.com'
+      githubUrl: 'https://github.com/Sreenu827/ci-cd-Kubernetes-integration'
     }
   ];
 
