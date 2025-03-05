@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
                 Contact Me <ChevronRight size={20} className="ml-2" />
               </a>
               <a 
-                href="/resume.pdf" 
+                href="/D:\Sreenivasulu_Ramanaboina_portfolio2\public\SreenivasuluRamanaboina_Resume.pdf" 
                 className="inline-flex items-center px-6 py-3 bg-white text-blue-600 font-medium rounded-lg border border-blue-600 hover:bg-blue-50 transition-colors duration-300"
                 download
               >
@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-600 shadow-xl animate-fadeIn">
                 <img 
-                  src="https://sreenu827.github.io/Sreenivasulu_Ramanaboina_portfolio2/my-image.jpg"  
+                  src="http://localhost:4174/Sreenivasulu_Ramanaboina_portfolio2/my-image.jpg"  
                   alt="Sreenivasulu Ramanaboina" 
                   className="w-full h-full object-cover"
                 />
