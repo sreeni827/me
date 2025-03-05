@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
                 Contact Me <ChevronRight size={20} className="ml-2" />
               </a>
               <a 
-                href="/SreenivasuluRamanaboina_Resume.pdf" 
+                href="/public/SreenivasuluRamanaboina_Resume.pdf" 
                 className="inline-flex items-center px-6 py-3 bg-white text-blue-600 font-medium rounded-lg border border-blue-600 hover:bg-blue-50 transition-colors duration-300"
                 download
               >
