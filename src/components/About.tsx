@@ -56,16 +56,19 @@ const About: React.FC = () => {
           <div className="md:w-2/3 md:pl-8">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Professional Summary</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Driven by a passion for cloud technologies and DevOps, I've spearheaded key projects at Wissen Infotech, 
-              achieving a 30% reduction in infrastructure costs through AWS optimizations. My expertise spans Terraform, 
-              Kubernetes, and proactive problem-solving, showcasing my ability to enhance system efficiency and reliability 
-              while fostering team collaboration.
+              • DevOps Engineer with over 3 years of hands-on experience in automating, optimizing, and managing IT infrastructures 
+and development workflows.  
+• Expertise in containerization and orchestration using Docker and Kubernetes, coupled with automation tools such as 
+Terraform, Ansible, and Puppet to streamline deployment and infrastructure management.  
+• Skilled in designing and managing CI/CD pipelines using Git, Jenkins, and GitHub Actions, ensuring seamless integration 
+and continuous delivery.  
+• Experience with cloud platforms, including AWS (EC2, S3, Lambda, RDS) to develop and maintain cloud-based solutions.  
+• Well-versed in system monitoring and logging using Prometheus, Grafana, ELK Stack, and Splunk for proactive issue 
+detection and resolution.  
+• Well-versed in Python, TypeScript, and Go for scripting and automation, along with expertise in managing databases like 
+MySQL and MS SQL Server.  
             </p>
-            <p className="text-gray-600 mb-6 leading-relaxed">
-              I'm an innovative professional in software development, known for productivity and efficiency in completing projects. 
-              I possess strong skills in algorithm design, system architecture, and code optimization. I excel in problem-solving, 
-              communication, and teamwork, ensuring successful collaboration on complex projects.
-            </p>
+           
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
               <div className="bg-gray-50 p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105">
