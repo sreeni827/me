@@ -47,7 +47,7 @@ const About: React.FC = () => {
                   <p className="font-medium">Southeast Missouri State University</p>
                   <p className="text-gray-600">Applied Computer Science</p>
                   <p className="text-gray-600">GPA: 3.8</p>
-                  <p className="text-gray-600">Graduated: January 2025</p>
+                  <p className="text-gray-600">Graduated: May 2025</p>
                 </div>
               </div>
             </div>
